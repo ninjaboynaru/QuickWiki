@@ -3,7 +3,7 @@ function GetWikipediaJSON(form)
 	var search = form[0].value;
 	if(!search){return;}
 	
-	var urlPart1 = "https://en.wikipedia.org/w/api.php/?action=query&format=json&prop=extracts|info&inprop=url&exinfo&exlaintext&exsentences=1&exlimit=max&";
+	var urlPart1 = "https://en.wikipedia.org/w/api.php/?action=query&format=json&prop=extracts|info&inprop=url&exinfo&explaintext&exsentences=1&exlimit=max&";
 	var urlPart2 = "generator=search&gsrnamespace=0&gsrlimit=10&callback=?&gsrsearch=";
 	$.getJSON(urlPart1 + urlPart2 + search, CreateEntries);
 }
