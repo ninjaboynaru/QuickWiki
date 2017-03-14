@@ -1,0 +1,70 @@
+body {
+	background-color:#07113A;
+	padding:55px;
+}
+
+#Input {
+	font-size:1.1em;
+}
+#Input p {
+	margin:0;
+	
+	color:white;
+	text-align:center;
+	font-size:1.8em;
+	font-family:Impact;
+}
+#Input form input {
+	position:relative;
+	width:30%;
+	left:35%;
+	
+	text-indent:5px;
+	border-style:solid;
+	border-color:#FFB300;
+	border-width:3px;
+	border-radius:10px;
+}
+
+
+#Entries {
+	margin-top:25px;
+	padding:0.5px;
+}
+wikiEntry {
+	display:block;
+	background-color:white;
+	font-family:sans-serif;
+	cursor:pointer;
+	
+	margin:35px 15px 35px 15px;
+	padding:10px;
+	border-style:solid;
+	border-radius:35px;
+	border-color:#FFB300;
+}
+wikiTitle {
+	display:block;
+	font-weight:bold;
+	font-size:1.5em;
+}
+wikiBody {
+	display:block;
+	text-indent:15px;
+}
+
+
+#Credits{
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	font-family:monospace;
+	font-size:1.4em;
+}
+
+
+
+
+
+
+
